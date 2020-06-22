@@ -1,0 +1,21 @@
+.container {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-button {
+  margin: 20px;
+  padding: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 12px;
+  border-color: lightgray;
+}
+
+.time-display {
+  font-weight: bold;
+  font-size: 4em;
+}

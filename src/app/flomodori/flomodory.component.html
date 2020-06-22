@@ -1,0 +1,7 @@
+<div class="container">
+  <app-progress [currentSeconds$]="timerValue$" [totalSeconds$]="totalSeconds$"></app-progress>
+  <div>
+    <button (click)="startTimer()" class="start-button" [disabled]="isRunning">Start</button>
+  </div>
+</div>
+

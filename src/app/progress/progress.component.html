@@ -1,0 +1,10 @@
+<!-- shamelessly copied from https://github.com/tiagobalmeida/purecss-circular-progress-bar -->
+
+<div class="progress-circle p{{percentage$ | async}}"
+     [ngClass]="{'over50' : (percentage$ | async)>50}">
+  <span>{{currentSeconds$ | async | timeformat}}</span>
+  <div class="left-half-clipper">
+    <div class="first50-bar"></div>
+    <div class="value-bar"></div>
+  </div>
+</div>
