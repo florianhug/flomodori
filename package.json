@@ -11,7 +11,7 @@
     "copy:readme": "copyfiles ./README.md ./dist/flomodori",
     "copy:license": "copyfiles ./LICENSE ./dist/flomodori",
     "publish:showcase": "npx angular-cli-ghpages --dir=./dist/flomodori",
-    "build:showcase": "ng build flomodori --base-href='https://florianhug.github.io/flomodori/'"
+    "build:showcase": "ng build flomodori --prod --base-href='https://florianhug.github.io/flomodori/'"
   },
   "private": true,
   "dependencies": {
