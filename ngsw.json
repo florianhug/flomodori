@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1592930970749,
+  "index": "https://florianhug.github.io/flomodori/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://florianhug.github.io/flomodori/favicon.ico",
+        "https://florianhug.github.io/flomodori/index.html",
+        "https://florianhug.github.io/flomodori/main-es2015.f6729a208a530cbd2d41.js",
+        "https://florianhug.github.io/flomodori/main-es5.f6729a208a530cbd2d41.js",
+        "https://florianhug.github.io/flomodori/manifest.webmanifest",
+        "https://florianhug.github.io/flomodori/polyfills-es2015.f2c5ab749249a66bdf26.js",
+        "https://florianhug.github.io/flomodori/polyfills-es5.049f620af8c864cf4d88.js",
+        "https://florianhug.github.io/flomodori/runtime-es2015.1eba213af0b233498d9d.js",
+        "https://florianhug.github.io/flomodori/runtime-es5.1eba213af0b233498d9d.js",
+        "https://florianhug.github.io/flomodori/styles.646432d86d197b679a79.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://florianhug.github.io/flomodori/assets/icons/icon-128x128.png",
+        "https://florianhug.github.io/flomodori/assets/icons/icon-144x144.png",
+        "https://florianhug.github.io/flomodori/assets/icons/icon-152x152.png",
+        "https://florianhug.github.io/flomodori/assets/icons/icon-192x192.png",
+        "https://florianhug.github.io/flomodori/assets/icons/icon-384x384.png",
+        "https://florianhug.github.io/flomodori/assets/icons/icon-512x512.png",
+        "https://florianhug.github.io/flomodori/assets/icons/icon-72x72.png",
+        "https://florianhug.github.io/flomodori/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://florianhug.github.io/flomodori/assets/icons/icon-128x128.png": "4d4961fffcf30eaf25afa23e6970074240b3a18b",
+    "https://florianhug.github.io/flomodori/assets/icons/icon-144x144.png": "a2864172d62d90a1e378a2654f9c0e3fb92ed05c",
+    "https://florianhug.github.io/flomodori/assets/icons/icon-152x152.png": "2d471bf8c6857b7fea93061d7613e0557e163262",
+    "https://florianhug.github.io/flomodori/assets/icons/icon-192x192.png": "3ea3ac647802168830cd7f1c65864e58ed4ac6fb",
+    "https://florianhug.github.io/flomodori/assets/icons/icon-384x384.png": "2458e041d80feee5e3df3b457477c36819ac122a",
+    "https://florianhug.github.io/flomodori/assets/icons/icon-512x512.png": "5c37cd04403b42a931d824b08625072d7b956a75",
+    "https://florianhug.github.io/flomodori/assets/icons/icon-72x72.png": "80279167afe0be9f4eb1bdc838a825e52953dde1",
+    "https://florianhug.github.io/flomodori/assets/icons/icon-96x96.png": "bd2396a06a926baf5961a7ae150414d90cc95d9f",
+    "https://florianhug.github.io/flomodori/favicon.ico": "0c554d101d6bf7293044131831a8c78efeafdd7f",
+    "https://florianhug.github.io/flomodori/index.html": "e8d35403252aa75f2c7a0641f4051f67939ad97b",
+    "https://florianhug.github.io/flomodori/main-es2015.f6729a208a530cbd2d41.js": "4bbbc0e2bab3419244fb93f84246aba24ab3b2b2",
+    "https://florianhug.github.io/flomodori/main-es5.f6729a208a530cbd2d41.js": "098d8b30452a04ceb146878d2b88d436dc083079",
+    "https://florianhug.github.io/flomodori/manifest.webmanifest": "d6f0f061824aaac74849a67c34096d579d7afd52",
+    "https://florianhug.github.io/flomodori/polyfills-es2015.f2c5ab749249a66bdf26.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "https://florianhug.github.io/flomodori/polyfills-es5.049f620af8c864cf4d88.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "https://florianhug.github.io/flomodori/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://florianhug.github.io/flomodori/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://florianhug.github.io/flomodori/styles.646432d86d197b679a79.css": "fbb9794386e8afae3b5caecafeddf4384f22aa22"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
