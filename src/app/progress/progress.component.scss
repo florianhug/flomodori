@@ -45,6 +45,8 @@
   border-radius: 50%;
   border: 1em solid #ff6347;
   box-sizing: border-box;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
 }
 
 .left-half-clipper {
