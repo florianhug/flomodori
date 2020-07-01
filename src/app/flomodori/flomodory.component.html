@@ -1,7 +1,9 @@
 <div class="container">
   <app-progress [currentSeconds$]="timerValue$" [totalSeconds$]="totalSeconds$"></app-progress>
   <div>
-    <button (click)="startTimer()" class="start-button" [disabled]="isRunning">Start</button>
+    <button (click)="startTimer()" class="start-button"
+            [ngClass]="{'is-running' : isRunning}">Start
+    </button>
   </div>
 </div>
 

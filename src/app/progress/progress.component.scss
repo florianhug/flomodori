@@ -4,8 +4,8 @@
   padding: 0;
   line-height: 10em;
 
-  width: 10em;
-  height: 10em;
+  width: 25vw;
+  height: 25vw;
   border-radius: 50%;
   position: relative;
 
@@ -15,35 +15,35 @@
 .progress-circle:after {
   border: none;
   position: absolute;
-  top: 1em;
-  left: 1em;
+  top: 2.5vw;
+  left: 2.5vw;
   text-align: center;
   display: block;
   border-radius: 50%;
-  width: 8em;
-  height: 8em;
+  width: 20vw;
+  height: 20vw;
   background-color: white;
   content: " ";
 }
 
 .progress-circle span {
   position: absolute;
-  line-height: 10em;
-  width: 10em;
+  line-height: 25vw;
+  width: 25vw;
   text-align: center;
   display: block;
   z-index: 2;
-  font-size: 1em;
+  font-size: 2vw;
   color: #594A30;
 }
 
 .value-bar {
   position: absolute;
-  clip: rect(0, 5em, 10em, 0);
-  width: 10em;
-  height: 10em;
+  clip: rect(0, 12.5vw, 25vw, 0);
+  width: 25vw;
+  height: 25vw;
   border-radius: 50%;
-  border: 1em solid #ff6347;
+  border: 2.5vw solid #ff6347;
   box-sizing: border-box;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
@@ -52,10 +52,10 @@
 .left-half-clipper {
   /* a round circle */
   border-radius: 50%;
-  width: 10em;
-  height: 10em;
+  width: 25vw;
+  height: 25vw;
   position: absolute; /* needed for clipping */
-  clip: rect(0, 10em, 10em, 5em); /* clips the whole left half*/
+  clip: rect(0, 25vw, 25vw, 12.5vw); /* clips the whole left half*/
 }
 
 .progress-circle.over50 .left-half-clipper {
@@ -66,11 +66,11 @@
 .progress-circle.over50 .first50-bar {
   /*Progress bar for the first 50%, filling the whole right half*/
   position: absolute; /*needed for clipping*/
-  clip: rect(0, 10em, 10em, 5em);
+  clip: rect(0, 25vw, 25vw, 12.5vw);
   background-color: tomato;
   border-radius: 50%;
-  width: 10em;
-  height: 10em;
+  width: 25vw;
+  height: 25vw;
 }
 
 .progress-circle:not(.over50) .first50-bar {
