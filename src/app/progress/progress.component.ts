@@ -27,9 +27,6 @@ export class ProgressComponent implements OnInit {
         map(value => value * 100),
         map(value => Math.ceil(value))
       );
-
-    this.percentage$.subscribe(value => console.log(`Value: ${value}`));
-
   }
 
 }
