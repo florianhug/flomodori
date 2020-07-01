@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {BehaviorSubject, Observable, Subject, Subscription, timer} from 'rxjs';
 import {map, takeWhile} from 'rxjs/operators';
+import {NotificationService} from '../notification.service';
 
 @Component({
   selector: 'app-flomodory',
@@ -13,10 +14,12 @@ export class FlomodoryComponent implements OnInit {
 
   private readonly _timerValue$: Subject<number>;
   private readonly _totalSeconds$: BehaviorSubject<number>;
+  private readonly _notificationService: NotificationService;
   private timer$: Subscription;
   isRunning: boolean;
 
-  constructor() {
+  constructor(notificationService: NotificationService) {
+    this._notificationService = notificationService;
     this._timerValue$ = new BehaviorSubject(FlomodoryComponent.DEFAULT_TIMER);
     this._totalSeconds$ = new BehaviorSubject(FlomodoryComponent.DEFAULT_TIMER);
   }
@@ -37,6 +40,10 @@ export class FlomodoryComponent implements OnInit {
         error => console.log(error),
         () => {
           this._timerValue$.next(FlomodoryComponent.DEFAULT_TIMER);
+          this._notificationService.create('Time is up!').subscribe(
+            res => console.log(res),
+            err => console.log(err)
+          );
           this.isRunning = false;
         });
   }
