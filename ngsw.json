@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1593602471909,
+  "timestamp": 1593602926732,
   "index": "https://florianhug.github.io/flomodori/index.html",
   "assetGroups": [
     {
@@ -49,7 +49,7 @@
     "https://florianhug.github.io/flomodori/assets/icons/icon-72x72.png": "80279167afe0be9f4eb1bdc838a825e52953dde1",
     "https://florianhug.github.io/flomodori/assets/icons/icon-96x96.png": "bd2396a06a926baf5961a7ae150414d90cc95d9f",
     "https://florianhug.github.io/flomodori/favicon.ico": "0c554d101d6bf7293044131831a8c78efeafdd7f",
-    "https://florianhug.github.io/flomodori/index.html": "8a45b5026b339e06b073d37e4cbd8823bfc767b7",
+    "https://florianhug.github.io/flomodori/index.html": "65015f61bd50e03645a3b1be71e5bd6966dd50bd",
     "https://florianhug.github.io/flomodori/main-es2015.567768753d5becd15f0d.js": "16cf1603f0fb955e47b8471d7984cc138864092d",
     "https://florianhug.github.io/flomodori/main-es5.567768753d5becd15f0d.js": "98342fa701e8ef5c739944921c136ee752d0c2aa",
     "https://florianhug.github.io/flomodori/manifest.webmanifest": "e52035b930a473badbe13c436323e557434502cb",
