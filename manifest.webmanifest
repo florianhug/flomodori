@@ -3,7 +3,8 @@
   "short_name": "flomodori",
   "theme_color": "#F06B50",
   "background_color": "#fafafa",
-  "display": "My pomodoro timer",
+  "description": "My pomodoro timer",
+  "display": "minimal-ui",
   "scope": "./",
   "start_url": "./",
   "icons": [

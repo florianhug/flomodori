@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1593602926732,
+  "timestamp": 1593604415119,
   "index": "https://florianhug.github.io/flomodori/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://florianhug.github.io/flomodori/favicon.ico",
         "https://florianhug.github.io/flomodori/index.html",
-        "https://florianhug.github.io/flomodori/main-es2015.567768753d5becd15f0d.js",
-        "https://florianhug.github.io/flomodori/main-es5.567768753d5becd15f0d.js",
+        "https://florianhug.github.io/flomodori/main-es2015.32df5d63d7a51a0faeda.js",
+        "https://florianhug.github.io/flomodori/main-es5.32df5d63d7a51a0faeda.js",
         "https://florianhug.github.io/flomodori/manifest.webmanifest",
         "https://florianhug.github.io/flomodori/polyfills-es2015.f2c5ab749249a66bdf26.js",
         "https://florianhug.github.io/flomodori/polyfills-es5.049f620af8c864cf4d88.js",
@@ -49,10 +49,10 @@
     "https://florianhug.github.io/flomodori/assets/icons/icon-72x72.png": "80279167afe0be9f4eb1bdc838a825e52953dde1",
     "https://florianhug.github.io/flomodori/assets/icons/icon-96x96.png": "bd2396a06a926baf5961a7ae150414d90cc95d9f",
     "https://florianhug.github.io/flomodori/favicon.ico": "0c554d101d6bf7293044131831a8c78efeafdd7f",
-    "https://florianhug.github.io/flomodori/index.html": "65015f61bd50e03645a3b1be71e5bd6966dd50bd",
-    "https://florianhug.github.io/flomodori/main-es2015.567768753d5becd15f0d.js": "16cf1603f0fb955e47b8471d7984cc138864092d",
-    "https://florianhug.github.io/flomodori/main-es5.567768753d5becd15f0d.js": "98342fa701e8ef5c739944921c136ee752d0c2aa",
-    "https://florianhug.github.io/flomodori/manifest.webmanifest": "e52035b930a473badbe13c436323e557434502cb",
+    "https://florianhug.github.io/flomodori/index.html": "f9a4c7b36aaf3514b09b50302d8e09d7a8d2e47f",
+    "https://florianhug.github.io/flomodori/main-es2015.32df5d63d7a51a0faeda.js": "3f212739434a3e6b3ac8048e2fae629148ff1115",
+    "https://florianhug.github.io/flomodori/main-es5.32df5d63d7a51a0faeda.js": "b415c4234156bd30beb128209d8504e59c2624dd",
+    "https://florianhug.github.io/flomodori/manifest.webmanifest": "2c3947718e68b8a310244fb7b0244e9920060f4b",
     "https://florianhug.github.io/flomodori/polyfills-es2015.f2c5ab749249a66bdf26.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "https://florianhug.github.io/flomodori/polyfills-es5.049f620af8c864cf4d88.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
     "https://florianhug.github.io/flomodori/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
