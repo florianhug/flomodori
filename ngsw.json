@@ -1,22 +1,25 @@
 {
   "configVersion": 1,
-  "timestamp": 1603699340831,
+  "timestamp": 1603747341552,
   "index": "https://florianhug.github.io/flomodori/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "https://florianhug.github.io/flomodori/favicon.ico",
         "https://florianhug.github.io/flomodori/index.html",
-        "https://florianhug.github.io/flomodori/main-es2015.b881d3fbae3d7af4d99a.js",
-        "https://florianhug.github.io/flomodori/main-es5.b881d3fbae3d7af4d99a.js",
+        "https://florianhug.github.io/flomodori/main-es2015.c0c7028540a5862ebf04.js",
+        "https://florianhug.github.io/flomodori/main-es5.c0c7028540a5862ebf04.js",
         "https://florianhug.github.io/flomodori/manifest.webmanifest",
-        "https://florianhug.github.io/flomodori/polyfills-es2015.f2c5ab749249a66bdf26.js",
-        "https://florianhug.github.io/flomodori/polyfills-es5.049f620af8c864cf4d88.js",
-        "https://florianhug.github.io/flomodori/runtime-es2015.1eba213af0b233498d9d.js",
-        "https://florianhug.github.io/flomodori/runtime-es5.1eba213af0b233498d9d.js",
+        "https://florianhug.github.io/flomodori/polyfills-es2015.4eb191482be2254421ff.js",
+        "https://florianhug.github.io/flomodori/polyfills-es5.212e1daaa7ab7b9975d1.js",
+        "https://florianhug.github.io/flomodori/runtime-es2015.66c79b9d36e7169e27b0.js",
+        "https://florianhug.github.io/flomodori/runtime-es5.66c79b9d36e7169e27b0.js",
         "https://florianhug.github.io/flomodori/styles.646432d86d197b679a79.css"
       ],
       "patterns": []
@@ -25,6 +28,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "https://florianhug.github.io/flomodori/assets/icons/icon-128x128.png",
         "https://florianhug.github.io/flomodori/assets/icons/icon-144x144.png",
@@ -49,14 +55,14 @@
     "https://florianhug.github.io/flomodori/assets/icons/icon-72x72.png": "80279167afe0be9f4eb1bdc838a825e52953dde1",
     "https://florianhug.github.io/flomodori/assets/icons/icon-96x96.png": "bd2396a06a926baf5961a7ae150414d90cc95d9f",
     "https://florianhug.github.io/flomodori/favicon.ico": "0c554d101d6bf7293044131831a8c78efeafdd7f",
-    "https://florianhug.github.io/flomodori/index.html": "13203da8f78f584d5fcb4b332545024545d8d994",
-    "https://florianhug.github.io/flomodori/main-es2015.b881d3fbae3d7af4d99a.js": "dfc411d3afaa64400e7835de88413d3a3ef7eb13",
-    "https://florianhug.github.io/flomodori/main-es5.b881d3fbae3d7af4d99a.js": "dd88ed8050a927adcce0b343d68f1d4140a9648c",
+    "https://florianhug.github.io/flomodori/index.html": "4ab014be99e881f3d45fb4e010f199fe59f073e0",
+    "https://florianhug.github.io/flomodori/main-es2015.c0c7028540a5862ebf04.js": "34077f0179b6e54e31c78e7858d442d8ae431eb1",
+    "https://florianhug.github.io/flomodori/main-es5.c0c7028540a5862ebf04.js": "f3df8be50d3c10271000f0441e8892deff2a8162",
     "https://florianhug.github.io/flomodori/manifest.webmanifest": "2c3947718e68b8a310244fb7b0244e9920060f4b",
-    "https://florianhug.github.io/flomodori/polyfills-es2015.f2c5ab749249a66bdf26.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
-    "https://florianhug.github.io/flomodori/polyfills-es5.049f620af8c864cf4d88.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
-    "https://florianhug.github.io/flomodori/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://florianhug.github.io/flomodori/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://florianhug.github.io/flomodori/polyfills-es2015.4eb191482be2254421ff.js": "cad3129c71535baaab25ac06d8429734959b0b3f",
+    "https://florianhug.github.io/flomodori/polyfills-es5.212e1daaa7ab7b9975d1.js": "ddab36708d3bfe0102402cd9e170eb47c267b9f8",
+    "https://florianhug.github.io/flomodori/runtime-es2015.66c79b9d36e7169e27b0.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://florianhug.github.io/flomodori/runtime-es5.66c79b9d36e7169e27b0.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://florianhug.github.io/flomodori/styles.646432d86d197b679a79.css": "fbb9794386e8afae3b5caecafeddf4384f22aa22"
   },
   "navigationUrls": [
