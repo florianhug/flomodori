@@ -26,15 +26,34 @@
   content: " ";
 }
 
-.progress-circle span {
+.inside-ring {
   position: absolute;
-  line-height: 25vw;
-  width: 25vw;
-  text-align: center;
   display: block;
   z-index: 2;
-  font-size: 2vw;
+  height: 16vw;
+  width: 16vw;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.inside-ring p {
   color: #594A30;
+  text-align: center;
+}
+
+.time-value {
+  line-height: 2vw;
+  font-size: 6vw;
+  margin-top: 6.8vw;
+  margin-bottom: 1.2vw
+}
+
+.time-unit {
+  line-height: 1vw;
+  font-size: 3vw;
 }
 
 .value-bar {

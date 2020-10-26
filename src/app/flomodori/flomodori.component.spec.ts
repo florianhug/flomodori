@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FlomodoryComponent } from './flomodory.component';
+import { FlomodoriComponent } from './flomodori.component';
 
 describe('FlomodoryComponent', () => {
-  let component: FlomodoryComponent;
-  let fixture: ComponentFixture<FlomodoryComponent>;
+  let component: FlomodoriComponent;
+  let fixture: ComponentFixture<FlomodoriComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FlomodoryComponent ]
+      declarations: [ FlomodoriComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FlomodoryComponent);
+    fixture = TestBed.createComponent(FlomodoriComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

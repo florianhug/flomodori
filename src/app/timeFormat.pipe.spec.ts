@@ -1,8 +1,8 @@
-import { TimeformatPipe } from './timeformat.pipe';
+import { TimeFormatPipe } from './timeFormat.pipe';
 
 describe('TimeformatPipe', () => {
   it('create an instance', () => {
-    const pipe = new TimeformatPipe();
+    const pipe = new TimeFormatPipe();
     expect(pipe).toBeTruthy();
   });
 });
