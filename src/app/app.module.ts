@@ -5,16 +5,18 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
-import {FlomodoryComponent} from './flomodori/flomodory.component';
-import {TimeformatPipe} from './timeformat.pipe';
+import {FlomodoriComponent} from './flomodori/flomodori.component';
+import {TimeFormatPipe} from './timeFormat.pipe';
 import { ProgressComponent } from './progress/progress.component';
+import { TimeUnitPipe } from './time-unit.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FlomodoryComponent,
-    TimeformatPipe,
-    ProgressComponent
+    FlomodoriComponent,
+    TimeFormatPipe,
+    ProgressComponent,
+    TimeUnitPipe
   ],
   imports: [
     BrowserModule,

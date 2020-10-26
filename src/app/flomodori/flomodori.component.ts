@@ -5,10 +5,10 @@ import {NotificationService} from '../notification.service';
 
 @Component({
   selector: 'app-flomodory',
-  templateUrl: './flomodory.component.html',
-  styleUrls: ['./flomodory.component.scss']
+  templateUrl: './flomodori.component.html',
+  styleUrls: ['./flomodori.component.scss']
 })
-export class FlomodoryComponent implements OnInit {
+export class FlomodoriComponent implements OnInit {
 
   private static readonly DEFAULT_TIMER: number = 1800;
 
@@ -20,8 +20,8 @@ export class FlomodoryComponent implements OnInit {
 
   constructor(notificationService: NotificationService) {
     this._notificationService = notificationService;
-    this._timerValue$ = new BehaviorSubject(FlomodoryComponent.DEFAULT_TIMER);
-    this._totalSeconds$ = new BehaviorSubject(FlomodoryComponent.DEFAULT_TIMER);
+    this._timerValue$ = new BehaviorSubject(FlomodoriComponent.DEFAULT_TIMER);
+    this._totalSeconds$ = new BehaviorSubject(FlomodoriComponent.DEFAULT_TIMER);
   }
 
   ngOnInit(): void {
@@ -34,12 +34,12 @@ export class FlomodoryComponent implements OnInit {
     }
     this.timer$ = timer(0, 1000)
       .pipe(
-        map(value => FlomodoryComponent.DEFAULT_TIMER - value),
+        map(value => FlomodoriComponent.DEFAULT_TIMER - value),
         takeWhile(value => value >= 0))
       .subscribe(value => this._timerValue$.next(value),
         error => console.log(error),
         () => {
-          this._timerValue$.next(FlomodoryComponent.DEFAULT_TIMER);
+          this._timerValue$.next(FlomodoriComponent.DEFAULT_TIMER);
           this._notificationService.create('Time is up!').subscribe(
             res => console.log(res),
             err => console.log(err)

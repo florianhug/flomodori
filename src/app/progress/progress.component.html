@@ -2,7 +2,10 @@
 
 <div class="progress-circle p{{percentage$ | async}}"
      [ngClass]="{'over50' : (percentage$ | async)>50}">
-  <span>{{currentSeconds$ | async | timeformat}}</span>
+  <div class="inside-ring">
+    <p class="time-value">{{currentSeconds$ | async | timeFormat}}</p>
+    <p class="time-unit">{{currentSeconds$ | async | timeUnit}}</p>
+  </div>
   <div class="left-half-clipper">
     <div class="first50-bar"></div>
     <div class="value-bar"></div>
