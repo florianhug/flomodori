@@ -4,6 +4,7 @@ import {ProgressComponent} from './progress.component';
 import {Component} from '@angular/core';
 import {BehaviorSubject, Subject} from 'rxjs';
 import {TimeFormatPipe} from '../timeFormat.pipe';
+import {TimeUnitPipe} from '../time-unit.pipe';
 
 describe('ProgressComponent', () => {
   let component: TestHostComponent;
@@ -11,7 +12,7 @@ describe('ProgressComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ProgressComponent, TimeFormatPipe, TestHostComponent]
+      declarations: [ProgressComponent, TimeFormatPipe, TimeUnitPipe, TestHostComponent]
     })
       .compileComponents();
   }));
