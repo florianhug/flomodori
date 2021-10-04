@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1603747341552,
+  "timestamp": 1633376787972,
   "index": "https://florianhug.github.io/flomodori/index.html",
   "assetGroups": [
     {
@@ -13,13 +13,13 @@
       "urls": [
         "https://florianhug.github.io/flomodori/favicon.ico",
         "https://florianhug.github.io/flomodori/index.html",
-        "https://florianhug.github.io/flomodori/main-es2015.c0c7028540a5862ebf04.js",
-        "https://florianhug.github.io/flomodori/main-es5.c0c7028540a5862ebf04.js",
+        "https://florianhug.github.io/flomodori/main-es2015.f55e468ef45092aae330.js",
+        "https://florianhug.github.io/flomodori/main-es5.f55e468ef45092aae330.js",
         "https://florianhug.github.io/flomodori/manifest.webmanifest",
-        "https://florianhug.github.io/flomodori/polyfills-es2015.4eb191482be2254421ff.js",
-        "https://florianhug.github.io/flomodori/polyfills-es5.212e1daaa7ab7b9975d1.js",
-        "https://florianhug.github.io/flomodori/runtime-es2015.66c79b9d36e7169e27b0.js",
-        "https://florianhug.github.io/flomodori/runtime-es5.66c79b9d36e7169e27b0.js",
+        "https://florianhug.github.io/flomodori/polyfills-es2015.d74b108abb35193b00e4.js",
+        "https://florianhug.github.io/flomodori/polyfills-es5.383939211b6047758ab1.js",
+        "https://florianhug.github.io/flomodori/runtime-es2015.a4dadbc03350107420a4.js",
+        "https://florianhug.github.io/flomodori/runtime-es5.a4dadbc03350107420a4.js",
         "https://florianhug.github.io/flomodori/styles.646432d86d197b679a79.css"
       ],
       "patterns": []
@@ -55,14 +55,14 @@
     "https://florianhug.github.io/flomodori/assets/icons/icon-72x72.png": "80279167afe0be9f4eb1bdc838a825e52953dde1",
     "https://florianhug.github.io/flomodori/assets/icons/icon-96x96.png": "bd2396a06a926baf5961a7ae150414d90cc95d9f",
     "https://florianhug.github.io/flomodori/favicon.ico": "0c554d101d6bf7293044131831a8c78efeafdd7f",
-    "https://florianhug.github.io/flomodori/index.html": "4ab014be99e881f3d45fb4e010f199fe59f073e0",
-    "https://florianhug.github.io/flomodori/main-es2015.c0c7028540a5862ebf04.js": "34077f0179b6e54e31c78e7858d442d8ae431eb1",
-    "https://florianhug.github.io/flomodori/main-es5.c0c7028540a5862ebf04.js": "f3df8be50d3c10271000f0441e8892deff2a8162",
+    "https://florianhug.github.io/flomodori/index.html": "9100b2cfb8632cdecadcd768e5ce1342fafc568b",
+    "https://florianhug.github.io/flomodori/main-es2015.f55e468ef45092aae330.js": "4b6f107f8a29b208010ab7327a6ee9fd0adc7724",
+    "https://florianhug.github.io/flomodori/main-es5.f55e468ef45092aae330.js": "e758e91f19663941d0d9ca8084ab6ed6dc4b856c",
     "https://florianhug.github.io/flomodori/manifest.webmanifest": "2c3947718e68b8a310244fb7b0244e9920060f4b",
-    "https://florianhug.github.io/flomodori/polyfills-es2015.4eb191482be2254421ff.js": "cad3129c71535baaab25ac06d8429734959b0b3f",
-    "https://florianhug.github.io/flomodori/polyfills-es5.212e1daaa7ab7b9975d1.js": "ddab36708d3bfe0102402cd9e170eb47c267b9f8",
-    "https://florianhug.github.io/flomodori/runtime-es2015.66c79b9d36e7169e27b0.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://florianhug.github.io/flomodori/runtime-es5.66c79b9d36e7169e27b0.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://florianhug.github.io/flomodori/polyfills-es2015.d74b108abb35193b00e4.js": "65c537467564ee0ba776b629f71ed3413413a7cb",
+    "https://florianhug.github.io/flomodori/polyfills-es5.383939211b6047758ab1.js": "d8306970e4a4bb544d4b644b1f81fb8943c8635b",
+    "https://florianhug.github.io/flomodori/runtime-es2015.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://florianhug.github.io/flomodori/runtime-es5.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "https://florianhug.github.io/flomodori/styles.646432d86d197b679a79.css": "fbb9794386e8afae3b5caecafeddf4384f22aa22"
   },
   "navigationUrls": [
@@ -82,5 +82,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
