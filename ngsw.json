@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1633376787972,
+  "timestamp": 1633377432298,
   "index": "https://florianhug.github.io/flomodori/index.html",
   "assetGroups": [
     {
@@ -13,14 +13,14 @@
       "urls": [
         "https://florianhug.github.io/flomodori/favicon.ico",
         "https://florianhug.github.io/flomodori/index.html",
-        "https://florianhug.github.io/flomodori/main-es2015.f55e468ef45092aae330.js",
-        "https://florianhug.github.io/flomodori/main-es5.f55e468ef45092aae330.js",
+        "https://florianhug.github.io/flomodori/main-es2015.29494557f2bbc56bae6a.js",
+        "https://florianhug.github.io/flomodori/main-es5.29494557f2bbc56bae6a.js",
         "https://florianhug.github.io/flomodori/manifest.webmanifest",
-        "https://florianhug.github.io/flomodori/polyfills-es2015.d74b108abb35193b00e4.js",
-        "https://florianhug.github.io/flomodori/polyfills-es5.383939211b6047758ab1.js",
-        "https://florianhug.github.io/flomodori/runtime-es2015.a4dadbc03350107420a4.js",
-        "https://florianhug.github.io/flomodori/runtime-es5.a4dadbc03350107420a4.js",
-        "https://florianhug.github.io/flomodori/styles.646432d86d197b679a79.css"
+        "https://florianhug.github.io/flomodori/polyfills-es2015.9057e474805db0300075.js",
+        "https://florianhug.github.io/flomodori/polyfills-es5.5017e3d07ae5636e5c3a.js",
+        "https://florianhug.github.io/flomodori/runtime-es2015.f56222adf67010648d6b.js",
+        "https://florianhug.github.io/flomodori/runtime-es5.f56222adf67010648d6b.js",
+        "https://florianhug.github.io/flomodori/styles.6c832151d9546cfd9361.css"
       ],
       "patterns": []
     },
@@ -55,15 +55,15 @@
     "https://florianhug.github.io/flomodori/assets/icons/icon-72x72.png": "80279167afe0be9f4eb1bdc838a825e52953dde1",
     "https://florianhug.github.io/flomodori/assets/icons/icon-96x96.png": "bd2396a06a926baf5961a7ae150414d90cc95d9f",
     "https://florianhug.github.io/flomodori/favicon.ico": "0c554d101d6bf7293044131831a8c78efeafdd7f",
-    "https://florianhug.github.io/flomodori/index.html": "9100b2cfb8632cdecadcd768e5ce1342fafc568b",
-    "https://florianhug.github.io/flomodori/main-es2015.f55e468ef45092aae330.js": "4b6f107f8a29b208010ab7327a6ee9fd0adc7724",
-    "https://florianhug.github.io/flomodori/main-es5.f55e468ef45092aae330.js": "e758e91f19663941d0d9ca8084ab6ed6dc4b856c",
+    "https://florianhug.github.io/flomodori/index.html": "5d6abb23c5ceddeaf3d9ac79c7648c64a5d12635",
+    "https://florianhug.github.io/flomodori/main-es2015.29494557f2bbc56bae6a.js": "cf26a26ce5c178cde1c367ba1f0bd5cb8cdc27d1",
+    "https://florianhug.github.io/flomodori/main-es5.29494557f2bbc56bae6a.js": "bd2c831862892c78d0b1c1000853127703c488eb",
     "https://florianhug.github.io/flomodori/manifest.webmanifest": "2c3947718e68b8a310244fb7b0244e9920060f4b",
-    "https://florianhug.github.io/flomodori/polyfills-es2015.d74b108abb35193b00e4.js": "65c537467564ee0ba776b629f71ed3413413a7cb",
-    "https://florianhug.github.io/flomodori/polyfills-es5.383939211b6047758ab1.js": "d8306970e4a4bb544d4b644b1f81fb8943c8635b",
-    "https://florianhug.github.io/flomodori/runtime-es2015.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://florianhug.github.io/flomodori/runtime-es5.a4dadbc03350107420a4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://florianhug.github.io/flomodori/styles.646432d86d197b679a79.css": "fbb9794386e8afae3b5caecafeddf4384f22aa22"
+    "https://florianhug.github.io/flomodori/polyfills-es2015.9057e474805db0300075.js": "07f8bbd2728c719bacd4ba5cb84a2efdeacbf820",
+    "https://florianhug.github.io/flomodori/polyfills-es5.5017e3d07ae5636e5c3a.js": "0b3aef8a61fe6d6d3867716059af6eecf0765dfa",
+    "https://florianhug.github.io/flomodori/runtime-es2015.f56222adf67010648d6b.js": "f8e8097b3782a9d30a7c8dbb74dcf9ab6b84b744",
+    "https://florianhug.github.io/flomodori/runtime-es5.f56222adf67010648d6b.js": "f8e8097b3782a9d30a7c8dbb74dcf9ab6b84b744",
+    "https://florianhug.github.io/flomodori/styles.6c832151d9546cfd9361.css": "fbb9794386e8afae3b5caecafeddf4384f22aa22"
   },
   "navigationUrls": [
     {
