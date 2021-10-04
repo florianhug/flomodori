@@ -1,4 +1,4 @@
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import {ProgressComponent} from './progress.component';
 import {Component} from '@angular/core';
@@ -10,7 +10,7 @@ describe('ProgressComponent', () => {
   let component: TestHostComponent;
   let fixture: ComponentFixture<TestHostComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ProgressComponent, TimeFormatPipe, TimeUnitPipe, TestHostComponent]
     })
